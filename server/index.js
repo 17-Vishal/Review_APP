@@ -12,7 +12,7 @@ app.use(cors());
 
 app.use('/', reviewRoutes);
 
-const CONNECTION_URL = 'mongodb+srv://katvicky:katvicky@cluster0.7rrqd.mongodb.net/<dbname>?retryWrites=true&w=majority';
+const CONNECTION_URL = '';
 const PORT = process.env.PORT || 5000;
 
 mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
